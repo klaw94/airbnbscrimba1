@@ -3,11 +3,19 @@ import star from "../assets/star.png"
 
 
 export default function Card(props) {
+    let badgeText;
+    
+    if (props.openSpots === 0 ){
+        badgeText = "SOLD OUT"
+    } else if (props.country === "Online"){
+        badgeText = "ONLINE"
+    }
+    
     return(
         <div className="card" id={props.id}>
             <div className="card--imgButtonDiv">
                 <img src={`/${props.img}`} alt="" className="card--img"/>
-                {props.openSpots ===0 && <button className="card--stateButton">SOLD OUT</button>}
+                {(props.openSpots ===0 || props.country === "Online") && <button className="card--stateButton">{badgeText}</button>}
             </div>
             <div className="card--textDiv">
                 <img src={star} className="star"/>

@@ -22,7 +22,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        country: "USA",
+        country: "Online",
         openSpots: 27,
     },
     {
@@ -61,7 +61,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        country: "USA",
+        country: "Online",
         openSpots: 27,
     },
     {
