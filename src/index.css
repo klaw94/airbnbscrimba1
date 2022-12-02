@@ -6,7 +6,7 @@
   width: 100%;
   color-scheme: light dark;
   color: black;
-  background-color: #242424;
+  background-color: white;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -102,11 +102,13 @@ body {
   margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
+  overflow-x: auto;
 }
 
 .card {
   width: 176px;
   padding: 10px;
+  flex: 0 0 auto;  
 }
 .card--imgButtonDiv{
   width: 176px;
@@ -183,12 +185,12 @@ body {
     margin-top: 60px;
   }
   .header {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .cardDiv{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .headerImage {
@@ -201,12 +203,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: left;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
-  .card{
+  /* .card{
     padding: 30px
-  }
+  } */
 
 }
 
