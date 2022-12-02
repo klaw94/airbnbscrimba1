@@ -12,12 +12,12 @@ function App() {
         key={card.id}
         id={card.id}
         img={card.coverImg} 
-        statusButton={card.status} 
         grade={card.stats.rating} 
         nOfVotes={card.stats.reviewCount} 
         country={card.country}
         title={card.title}
         price={card.price}
+        openSpots={card.openSpots}
       />
     )
   )

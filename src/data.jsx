@@ -10,7 +10,6 @@ export default [
             reviewCount: 6
         },
         country: "USA",
-        status: "SOLD OUT",
         openSpots: 0,
     },
     {
@@ -23,7 +22,6 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        status: "ONLINE",
         country: "USA",
         openSpots: 27,
     },
@@ -37,7 +35,6 @@ export default [
             rating: 4.8,
             reviewCount: 2
         },
-        status: "SOLD OUT",
         country: "Norway",
         openSpots: 3,
     },
@@ -52,7 +49,6 @@ export default [
             reviewCount: 6
         },
         country: "USA",
-        status: "SOLD OUT",
         openSpots: 0,
     },
     {
@@ -65,7 +61,6 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        status: "ONLINE",
         country: "USA",
         openSpots: 27,
     },
@@ -79,7 +74,6 @@ export default [
             rating: 4.8,
             reviewCount: 2
         },
-        status: "SOLD OUT",
         country: "Norway",
         openSpots: 3,
     }

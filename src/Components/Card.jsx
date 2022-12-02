@@ -7,7 +7,7 @@ export default function Card(props) {
         <div className="card" id={props.id}>
             <div className="card--imgButtonDiv">
                 <img src={`/${props.img}`} alt="" className="card--img"/>
-                <button className="card--stateButton">{props.statusButton}</button>
+                {props.openSpots ===0 && <button className="card--stateButton">SOLD OUT</button>}
             </div>
             <div className="card--textDiv">
                 <img src={star} className="star"/>
