@@ -108,18 +108,26 @@ body {
   width: 176px;
   height: 235px;
   border-radius: 6px;
-  background-image: url("./assets/zaferes.png");
-  background-repeat: no-repeat;
-  background-size: 176px 235px;
+  position: relative;
+  /* background-image: url("./assets/zaferes.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 176px 235px; */
+
+}
+
+.card--img{
+  width: 176px ;
+  height: 235px;
+  border-radius: 6px;
 
 }
 
 .card--stateButton{
   width: 61px;
   height: 20px;
-  position: relative;
+  position: absolute;
   top: 6px;
-  right: 52px;
+  left: 8px;
   font-size: 10px;
   padding: 0;
   padding-top: 1px;
@@ -127,6 +135,7 @@ body {
   border: white;
   border-radius: 2px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .card--textDiv{
