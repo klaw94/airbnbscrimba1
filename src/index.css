@@ -4,6 +4,8 @@
   line-height: 24px;
   font-weight: 400;
   width: 100%;
+  min-width: 400px;
+  max-width: none;
   color-scheme: light dark;
   color: black;
   background-color: white;
@@ -12,8 +14,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -29,15 +31,24 @@ body {
   justify-content: center;
 }
 
-
 .App{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-bottom: 100px;
   margin:0;
+  padding: 0;
   width: 100%;
 }
+
+
+.navbar {
+  height: 70px;
+  box-shadow: 5px 3px 10px 2px rgba(187, 186, 186, 0.418);
+  /* box-sizing: border-box; */
+  width: 100%;
+}
+
 
 .gray{
   color: rgba(145, 142, 155, 1);
@@ -47,15 +58,7 @@ body {
   font-weight: 600;
 }
 
-.navbar {
-  margin: 0;
-  height: 70px;
-  box-shadow: 5px 3px 10px 2px rgba(187, 186, 186, 0.418);
-  display: flex;
-  justify-content: left;
-  box-sizing: border-box;
-  width: 100%;
-}
+
 
 .logo{
   height: 25px;
@@ -102,13 +105,12 @@ body {
   margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
-  overflow-x: auto;
 }
 
 .card {
   width: 176px;
   padding: 10px;
-  flex: 0 0 auto;  
+  /* flex: 0 0 auto;   */
 }
 .card--imgButtonDiv{
   width: 176px;
@@ -181,7 +183,7 @@ body {
 
 
 @media only screen and (min-width: 700px) {
-  .title {
+  /* .title {
     margin-top: 60px;
   }
   .header {
@@ -191,7 +193,7 @@ body {
   .cardDiv{
     margin-left: 5%;
     margin-right: 5%;
-  }
+  } */
 
   .headerImage {
     padding-right: 5%;
@@ -199,21 +201,22 @@ body {
     max-width: 600px;
   }
 
-  .cardDiv{
+  /* .cardDiv{
     width: 100%;
     display: flex;
     justify-content: left;
-    margin-left: 5%;
+    margin-left: 5%; */
   }
 
   /* .card{
     padding: 30px
-  } */
+  }
 
-}
+} 
 
-@media only screen and (min-width: 800px) {
+/* @media only screen and (min-width: 800px) {
   .title {
     margin-top: 100px;
   }
-}
+} */
+
